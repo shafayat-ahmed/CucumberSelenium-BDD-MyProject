@@ -1,0 +1,32 @@
+What is feature file in cucumber?
+A Feature File is an entry point to the Cucumber tests. 
+It is an essential part of Cucumber, as it serves as an automation test script as well as live documents. 
+A feature file can contain a scenario or can contain 
+many scenarios in a single feature file but it usually contains a list of scenarios.
+
+Feature File consist of following components -
+
+Feature: A feature would describe the current test script which has to be executed.
+
+Scenario: Scenario describes the steps and expected outcome for a particular test case.
+
+Scenario Outline: Same scenario can be executed for multiple sets of data using scenario outline. 
+The data is provided by a tabular structure separated by (I I).
+
+Given: It specifies the context of the text to be executed. 
+By using datatables "Given", step can also be parameterized.
+
+When: "When" specifies the test action that has to performed
+
+Then: The expected outcome of the test can be represented by "Then"
+
+What is "Step Definition"?
+Step definition maps the Test Case Steps in the feature files(introduced by Given/When/Then) to code.
+
+Summary:
+
+-You need 2 Files – Features and Step Definition to execute a Cucmber test scenario
+
+-Features file contain high level description of the Test Scenario in simple language
+
+-Steps Definition file contains the actual code to execute the Test Scenario in the Features file. 
