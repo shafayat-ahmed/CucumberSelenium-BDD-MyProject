@@ -1,0 +1,326 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "CheckIn Feature Test",
+        "description": "",
+        "id": "checkin-feature;checkin-feature-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5068821636,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user in the main page to check logIn",
+            "match": {
+              "location": "CheckInSteps.user_in_the_main_page_to_check_logIn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304785956,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click on checkIn",
+            "match": {
+              "location": "CheckInSteps.click_on_checkIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 190213661,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "input travelers last name for checkIn",
+            "match": {
+              "location": "CheckInSteps.input_travelers_last_name_for_checkIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93017625,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "input confirmation code",
+            "match": {
+              "location": "CheckInSteps.input_confirmation_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131460256,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on checkIn button",
+            "match": {
+              "location": "CheckInSteps.click_on_checkIn_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314597821,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the checkIn browser",
+            "match": {
+              "location": "CheckInSteps.close_checkIn_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CheckIn Feature",
+    "description": "",
+    "id": "checkin-feature",
+    "keyword": "Feature",
+    "uri": "CheckIn.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "MainPage Feature test",
+        "description": "",
+        "id": "mainpage-feature;mainpage-feature-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4066012567,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in the main page",
+            "match": {
+              "location": "MainPageSteps.user_in_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 369519252,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click book",
+            "match": {
+              "location": "MainPageSteps.click_book()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203941740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click flight",
+            "match": {
+              "location": "MainPageSteps.click_flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185503557,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click round trip",
+            "match": {
+              "location": "MainPageSteps.click_round_trip()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2142154264,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "choose starting city",
+            "match": {
+              "location": "MainPageSteps.choose_starting_city()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2155991014,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "choose ending city",
+            "match": {
+              "location": "MainPageSteps.choose_ending_city()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 363605002,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "choose depart date",
+            "match": {
+              "location": "MainPageSteps.choose_depart_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 346744026,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "choose return date",
+            "match": {
+              "location": "MainPageSteps.choose_return_date()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220686750,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "choose how many adults",
+            "match": {
+              "location": "MainPageSteps.choose_how_many_adults()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5005572553,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click search flight button",
+            "match": {
+              "location": "MainPageSteps.click_search_flight_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MainPage Feature",
+    "description": "",
+    "id": "mainpage-feature",
+    "keyword": "Feature",
+    "uri": "MainPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "MyTrips Feature Test",
+        "description": "",
+        "id": "mytrips-feature;mytrips-feature-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4313615395,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user in the main page to check myTrips",
+            "match": {
+              "location": "MyTripsSteps.user_in_the_main_page_to_check_myTrips()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 290011632,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on my trips",
+            "match": {
+              "location": "MyTripsSteps.click_on_my_trips()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135379022,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "input travelers last name",
+            "match": {
+              "location": "MyTripsSteps.input_travelers_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173141904,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input travelers confirmation code",
+            "match": {
+              "location": "MyTripsSteps.input_travelers_confirmation_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 90097696,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on continue button",
+            "match": {
+              "location": "MyTripsSteps.click_on_continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322837587,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the myTrips browser",
+            "match": {
+              "location": "MyTripsSteps.close_the_myTrips_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "MyTrips Feature",
+    "description": "",
+    "id": "mytrips-feature",
+    "keyword": "Feature",
+    "uri": "MyTrips .feature"
+  }
+]
